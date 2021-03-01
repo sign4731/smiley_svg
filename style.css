@@ -1,0 +1,38 @@
+#circle {
+  fill: rgb(248, 248, 48);
+  stroke: black;
+}
+
+#left_eye {
+  animation: wink 6s linear infinite alternate;
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+}
+@keyframes wink {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(150deg);
+  }
+}
+
+#nose {
+  width: 10px;
+  height: 10px;
+}
+
+#left_brow {
+  stroke: black;
+  stroke-width: 5px;
+}
+#right_brow {
+  stroke: black;
+  stroke-width: 5px;
+}
+
+#mouth {
+  stroke: red;
+  stroke-width: 5px;
+  fill: none;
+}
